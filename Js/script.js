@@ -72,7 +72,7 @@ function showDedicationText() { //seguidores
   if (!text) {
     text = `Para mi princesa mais linda do universo:\n\nDesde que estamos juntos, todo se siente diferente. Aunque la distancia exista, tú logras hacerme sentir cerca con cada palabra, con cada detalle.
 
-\n\nMe enamora tu forma de ser, tan auténtica. En este mes, siento que vamos creciendo de verdad, paso a paso.\n\n Quiero seguir contigo, creciendo juntos, con cariño, paciencia y verdad.`;  } else {
+\n\nA veces cierro los ojos y te imagino aquí, conmigo, tomándote de la mano, mirándote en silencio… y en ese instante, todo se siente en paz. Porque tu amor me calma, me llena, me inspira.\n\nQuiero que nuestro amor sea de verdad, construido con confianza, respeto y cariño, sin importar dónde estemos. `;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
